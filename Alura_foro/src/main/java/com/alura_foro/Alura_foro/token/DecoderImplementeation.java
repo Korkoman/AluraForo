@@ -1,11 +1,9 @@
-package com.alura_foro.Alura_foro.validaciones;
+package com.alura_foro.Alura_foro.token;
 
-import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;

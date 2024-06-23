@@ -10,4 +10,5 @@ import java.util.List;
 public interface TopicoRepository extends JpaRepository<Topico, Long> {
     List<Topico> findAll();
 
+    Topico findByTopico(String titulo);
 }
